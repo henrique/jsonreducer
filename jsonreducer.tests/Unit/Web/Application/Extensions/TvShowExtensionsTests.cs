@@ -1,7 +1,7 @@
 ﻿using System;
 using NUnit.Framework;
 using jsonreducer.data.Models;
-using jsonreducer.web.Application.Extensions;
+using jsonreducer.web.Extensions;
 
 namespace jsonreducer.tests.Unit.Web.Application.Extensions
 {

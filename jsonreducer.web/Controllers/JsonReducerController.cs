@@ -3,7 +3,7 @@ using System.Web.Http;
 using jsonreducer.data.Models;
 using jsonreducer.data.Specifications;
 using jsonreducer.data.Specifications.Extensions;
-using jsonreducer.web.Application.Extensions;
+using jsonreducer.web.Extensions;
 using jsonreducer.web.Models;
 
 namespace jsonreducer.web.Controllers

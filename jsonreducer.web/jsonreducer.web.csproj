@@ -76,7 +76,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Application\Extensions\TvShowExtensions.cs" />
+    <Compile Include="Extensions\TvShowExtensions.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Filters\ModelValidationActionFilter.cs" />

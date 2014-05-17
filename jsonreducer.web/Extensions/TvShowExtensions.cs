@@ -1,7 +1,7 @@
 ﻿using jsonreducer.data.Models;
 using jsonreducer.web.Models;
 
-namespace jsonreducer.web.Application.Extensions
+namespace jsonreducer.web.Extensions
 {
     public static class TvShowExtensions
     {
