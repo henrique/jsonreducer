@@ -11,6 +11,9 @@ Open the solution in Visual Studio 2012 and hit F5! You can then open PowerShell
 ### Cloud Option
 AS this repository is hosted on GitHub you could simply clone the repository and then configure your repository to push to AppHarbor - just as this one does!
 
+### Supported Verbs
+The service only supports POST.
+
 ### PowerShell Invoke-WebRequest
 Here's a sample.
 
