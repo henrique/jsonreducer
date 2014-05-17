@@ -1,24 +1,24 @@
-jsonreducer
+# jsonreducer
 ===========
 A small REST web service that applies transforms over JSON data. The JSON data contains information about TV shows. The service
 will return shows where DRM is true and the show has episodes.
 
-==Getting Started==
+## Getting Started
 
-===Local Option===
+### Local Option
 Open the solution in Visual Studio 2012 and hit F5! You can then open PowerShell and start making requests against the service.
 
-===Cloud Option===
+### Cloud Option
 AS this repository is hosted on GitHub you could simply clone the repository and then configure your repository to push to AppHarbor - just as this one does!
 
-===PowerShell Invoke-WebRequest===
+### PowerShell Invoke-WebRequest
 Here's a sample.
 
 ```
 iwr -Uri http://jsonreducer.appharbor.com -ContentType 'text/json' -Method Post -Body '{"payload":[{"slug":"anexamplerequest","title":"An Example Request","drm":true,"episodecount":1}]}'
 ```
 
-===Sample Request===
+### Sample Request
 
 ```json
 {
@@ -299,8 +299,8 @@ iwr -Uri http://jsonreducer.appharbor.com -ContentType 'text/json' -Method Post 
 }
 ```
 
-==Tests==
+## Tests
 There are some unit and integration tests in ``jsonreducer.tests``. These can be run using any NUnit compatible test runner.
 
-==Licence==
+## Licence
 MIT
