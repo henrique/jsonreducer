@@ -1,5 +1,6 @@
 ﻿using System.Web.Http;
 using Newtonsoft.Json.Serialization;
+using jsonreducer.web.DelegatingHandlers;
 
 namespace jsonreducer.web.App_Start
 {
@@ -7,6 +8,8 @@ namespace jsonreducer.web.App_Start
     {
         public static void ConfigureApi(HttpConfiguration config)
         {
+            GlobalConfiguration.Configuration.MessageHandlers.Add(new HttpPostMethodOnlyDelegatingHandler());
+
             // todo: consider removing other formatters
 
             // setup json formatting 
