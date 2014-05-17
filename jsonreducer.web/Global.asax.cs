@@ -20,7 +20,7 @@ namespace jsonreducer.web
                 return;
 
             var headers = app.Context.Response.Headers;
-            headers.Remove("Server");
+            headers.Set("Server", "Foo");
         }
     }
 }
