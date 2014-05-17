@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jsonreducer.web", "jsonreducer.web\jsonreducer.web.csproj", "{173F32A2-A53D-4D67-ABC0-600186CC9EA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jsonreducer.data", "jsonreducer.data\jsonreducer.data.csproj", "{3F7A8D02-6E24-40DC-BA67-4E6B77AC4E8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jsonreducer.tests", "jsonreducer.tests\jsonreducer.tests.csproj", "{A8C4F41C-FC61-4DB4-82F9-FB701E62E350}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{173F32A2-A53D-4D67-ABC0-600186CC9EA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{173F32A2-A53D-4D67-ABC0-600186CC9EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{173F32A2-A53D-4D67-ABC0-600186CC9EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{173F32A2-A53D-4D67-ABC0-600186CC9EA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F7A8D02-6E24-40DC-BA67-4E6B77AC4E8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F7A8D02-6E24-40DC-BA67-4E6B77AC4E8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F7A8D02-6E24-40DC-BA67-4E6B77AC4E8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F7A8D02-6E24-40DC-BA67-4E6B77AC4E8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8C4F41C-FC61-4DB4-82F9-FB701E62E350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8C4F41C-FC61-4DB4-82F9-FB701E62E350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8C4F41C-FC61-4DB4-82F9-FB701E62E350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8C4F41C-FC61-4DB4-82F9-FB701E62E350}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
