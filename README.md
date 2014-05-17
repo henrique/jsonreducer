@@ -15,7 +15,7 @@ AS this repository is hosted on GitHub you could simply clone the repository and
 Here's a sample.
 
 ```
-iwr -Uri http://jsonreducer.appharbor.com -ContentType 'text/json' -Method Post -Body '{"payload":[{"slug":"anexamplerequest","title":"An Example Request","drm":true,"episodecount":1}]}'
+iwr -Uri http://jsonreducer.apphb.com/ -ContentType 'text/json' -Method Post -Body '{"payload":[{"slug":"anexamplerequest","title":"An Example Request","drm":true,"episodecount":1}]}'
 ```
 
 ### Sample Request
